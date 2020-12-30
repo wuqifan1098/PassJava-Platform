@@ -4,30 +4,26 @@
 /*==============================================================*/
 
 
-drop table if exists "会员-会员表";
+DROP DATABASE IF EXISTS `passjava_ums`;
+DROP DATABASE IF EXISTS `passjava_qms`;
+DROP DATABASE IF EXISTS `passjava_sms`;
+DROP DATABASE IF EXISTS `passjava_cms`;
+DROP DATABASE IF EXISTS `passjava_chms`;
 
-drop table if exists "会员-积分值变化历史记录表";
+CREATE DATABASE passjava_ums CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+CREATE DATABASE passjava_qms CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+CREATE DATABASE passjava_sms CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+CREATE DATABASE passjava_cms CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+CREATE DATABASE passjava_chms CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
 
-drop table if exists "内容-横幅广告表";
+USE passjava_ums;
 
-drop table if exists "内容-资讯表";
-
-drop table if exists "学习-用户学习时常表";
-
-drop table if exists "学习-用户学习浏览器记录表";
-
-drop table if exists "渠道-渠道表";
-
-drop table if exists "渠道-认证表";
-
-drop table if exists "题目-题目类型表";
-
-drop table if exists "题目-题目表";
+DROP TABLE IF EXISTS ums_member;
 
 /*==============================================================*/
 /* Table: "会员-会员表"                                              */
 /*==============================================================*/
-create table "会员-会员表"
+create table ums_member
 (
    id                   bigint not null,
    miniAppOpenId        int,
@@ -54,7 +50,7 @@ create table "会员-会员表"
 /*==============================================================*/
 /* Table: "会员-积分值变化历史记录表"                                       */
 /*==============================================================*/
-create table "会员-积分值变化历史记录表"
+create table ums_growth_change_history
 (
    id                   bigint not null,
    memberId             bigint,
@@ -66,15 +62,20 @@ create table "会员-积分值变化历史记录表"
    primary key (id)
 );
 
+
+USE passjava_cms;
+
+DROP TABLE IF EXISTS cms_banner;
+
 /*==============================================================*/
 /* Table: "内容-横幅广告表"                                            */
 /*==============================================================*/
-create table "内容-横幅广告表"
+create table cms_banner
 (
    id                   bigint not null,
    imgPath              varchar(500),
    title                varchar(500),
-   "order"              int,
+   displayOrder                int,
    isShowed             tinyint,
    redirectType         tinyint,
    createTime           datetime,
@@ -85,12 +86,12 @@ create table "内容-横幅广告表"
 /*==============================================================*/
 /* Table: "内容-资讯表"                                              */
 /*==============================================================*/
-create table "内容-资讯表"
+create table cms_news
 (
    id                   bigint not null,
    imgPath              varchar(500),
    title                varchar(500),
-   "order"              int,
+   displayOrder              int,
    isShowed             tinyint,
    redirectType         tinyint,
    createTime           datetime,
@@ -98,10 +99,14 @@ create table "内容-资讯表"
    primary key (id)
 );
 
+USE passjava_sms;
+
+DROP TABLE IF EXISTS sms_study_time;
+
 /*==============================================================*/
 /* Table: "学习-用户学习时常表"                                          */
 /*==============================================================*/
-create table "学习-用户学习时常表"
+create table sms_study_time
 (
    id                   bigint not null,
    topicId              bigint,
@@ -115,7 +120,7 @@ create table "学习-用户学习时常表"
 /*==============================================================*/
 /* Table: "学习-用户学习浏览器记录表"                                       */
 /*==============================================================*/
-create table "学习-用户学习浏览器记录表"
+create table sms_view_log
 (
    id                   bigint not null,
    topicId              bigint,
@@ -126,10 +131,14 @@ create table "学习-用户学习浏览器记录表"
    primary key (id)
 );
 
+USE passjava_chms;
+
+DROP TABLE IF EXISTS chms_channel;
+
 /*==============================================================*/
 /* Table: "渠道-渠道表"                                              */
 /*==============================================================*/
-create table "渠道-渠道表"
+create table chms_channel
 (
    id                   bigint not null,
    channelName          varchar(100),
@@ -143,7 +152,7 @@ create table "渠道-渠道表"
 /*==============================================================*/
 /* Table: "渠道-认证表"                                              */
 /*==============================================================*/
-create table "渠道-认证表"
+create table chms_access_token
 (
    id                   bigint not null,
    channelName          varchar(100),
@@ -154,10 +163,14 @@ create table "渠道-认证表"
    primary key (id)
 );
 
+USE passjava_qms;
+
+DROP TABLE IF EXISTS qms_question;
+
 /*==============================================================*/
 /* Table: "题目-题目类型表"                                            */
 /*==============================================================*/
-create table "题目-题目类型表"
+create table qms_type
 (
    id                   bigint not null,
    typeName             char(64),
@@ -170,13 +183,13 @@ create table "题目-题目类型表"
 /*==============================================================*/
 /* Table: "题目-题目表"                                              */
 /*==============================================================*/
-create table "题目-题目表"
+create table qms_question
 (
    id                   bigint not null,
    questionName         varchar(500),
    questionAnswer       varchar(2000),
    questionDiffcultyClass tinyint,
-   "order"              int,
+   displayOrder              int,
    subtitle             varchar(500),
    questionType         bigint,
    isShowed             tinyint,
