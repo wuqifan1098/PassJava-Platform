@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand />
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e220fdb1-a93e-46c8-b863-e236e4ada1a1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/passjava-channel/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/passjava-channel/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/passjava-channel/src/main/java/com/psbc/passjava/passjavachannel/PassjavaChannelApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/passjava-channel/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/passjava-channel/src/test/java/com/psbc/passjava/passjavachannel/PassjavaChannelApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/passjava-content/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/passjava-content/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/passjava-content/src/main/java/com/psbc/passjava/passjavacontent/PassjavaContentApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/passjava-content/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/passjava-content/src/test/java/com/psbc/passjava/passjavacontent/PassjavaContentApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/passjava-member/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/passjava-member/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/passjava-member/src/main/java/com/psbc/passjava/passjavamember/PassjavaMemberApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/passjava-member/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/passjava-member/src/test/java/com/psbc/passjava/passjavamember/PassjavaMemberApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/passjava-question/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/passjava-question/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/passjava-question/src/main/java/com/psbc/passjava/passjavaquestion/PassjavaQuestionApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/passjava-question/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/passjava-question/src/test/java/com/psbc/passjava/passjavaquestion/PassjavaQuestionApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/passjava-study/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/passjava-study/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/passjava-study/src/main/java/com/psbc/passjava/passjavastudy/PassjavaStudyApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/passjava-study/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/passjava-study/src/test/java/com/psbc/passjava/passjavastudy/PassjavaStudyApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="E:\Maven\repository" />
+        <option name="mavenHome" value="D:\IntelliJ IDEA 2020.2.2\plugins\maven\lib\maven3" />
+        <option name="userSettingsFile" value="D:\maven\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1mMJGH7j540ufj6VqLmEkZdUpL4" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager" selected="Spring Boot.PassjavaChannelApplication">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PassjavaChannelApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="passjava-channel" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.psbc.passjava.passjavachannel.PassjavaChannelApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PassjavaContentApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="passjava-content" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.psbc.passjava.passjavacontent.PassjavaContentApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PassjavaMemberApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="passjava-member" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.psbc.passjava.passjavamember.PassjavaMemberApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PassjavaQuestionApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="passjava-question" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.psbc.passjava.passjavaquestion.PassjavaQuestionApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PassjavaStudyApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="passjava-study" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.psbc.passjava.passjavastudy.PassjavaStudyApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e220fdb1-a93e-46c8-b863-e236e4ada1a1" name="Default Changelist" comment="" />
+      <created>1609297430849</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1609297430849</updated>
+      <workItem from="1609297432244" duration="715000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="1" value="TOOL_WINDOW" />
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="490" y="238" key="Github.ShareDialog" timestamp="1609297558455">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="490" y="238" key="Github.ShareDialog/0.0.1280.680@0.0.1280.680" timestamp="1609297558455" />
+    <state x="393" y="45" key="Github.UntrackedFilesDialog" timestamp="1609297569396">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="393" y="45" key="Github.UntrackedFilesDialog/0.0.1280.680@0.0.1280.680" timestamp="1609297569396" />
+    <state x="28" y="0" key="new project wizard" timestamp="1609298079433">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="28" y="0" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1609298079433" />
+  </component>
+</project>
