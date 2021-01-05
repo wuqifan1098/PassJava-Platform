@@ -1,16 +1,16 @@
 package service.impl;
 
+import dao.QuestionDao;
+import entity.QuestionEntity;
 import org.springframework.stereotype.Service;
 import java.util.Map;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.psbc.common.utils.PageUtils;
-import com.psbc.common.utils.Query;
 
-import com.psbc.passjava.question.dao.QuestionDao;
-import com.psbc.passjava.question.entity.QuestionEntity;
-import com.psbc.passjava.question.service.QuestionService;
+import service.QuestionService;
+import utils.PageUtils;
+import utils.Query;
 
 
 @Service("questionService")

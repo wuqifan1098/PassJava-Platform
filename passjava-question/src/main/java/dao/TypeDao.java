@@ -1,7 +1,8 @@
 package dao;
 
-import com.psbc.passjava.question.entity.TypeEntity;
+
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import entity.TypeEntity;
 import org.apache.ibatis.annotations.Mapper;
 
 /**

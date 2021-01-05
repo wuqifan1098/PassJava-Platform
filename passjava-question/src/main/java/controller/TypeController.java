@@ -3,6 +3,7 @@ package controller;
 import java.util.Arrays;
 import java.util.Map;
 
+import entity.TypeEntity;
 import org.apache.shiro.authz.annotation.RequiresPermissions;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -10,12 +11,9 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
-
-import com.psbc.passjava.question.entity.TypeEntity;
-import com.psbc.passjava.question.service.TypeService;
-import com.psbc.common.utils.PageUtils;
-import com.psbc.common.utils.R;
-
+import service.TypeService;
+import utils.PageUtils;
+import utils.R;
 
 
 /**

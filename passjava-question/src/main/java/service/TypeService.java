@@ -1,8 +1,10 @@
 package service;
 
+
+
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.psbc.common.utils.PageUtils;
-import com.psbc.passjava.question.entity.TypeEntity;
+import entity.TypeEntity;
+import utils.PageUtils;
 
 import java.util.Map;
 
